@@ -90,10 +90,10 @@ body {
     color: white;
     text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
     font-weight: bold;
-    /* animation: flotar 2s ease infinite; */
+    animation: flotar 2s ease infinite;
 }
 
-/* @keyframes flotar {
+@keyframes flotar {
     0% {
       transform: translateY(0);
     }
@@ -103,7 +103,7 @@ body {
     100% {
       transform: translateY(0);
     }
-  } */
+  }
 
 
 
