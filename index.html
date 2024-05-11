@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/resset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body id="fondo">
+  <main class="contenedorGeneral">
+
+      <header>            
+        <div class="titulos">
+          <h1 id="miNombre"> JESÚS GARCÍA </h1>
+          <h2 id="subtitulo"> Full Stack Developer </h2>
+        </div>
+      </header>
+
+      <section class="encabezado">
+        <h2 id="tituloSobreMi">SOBRE MI</h2>
+        <div>
+          <p  class="parrafo">
+            Soy un apasionado desarrollador full stack de 25 años de edad, originario de la vibrante ciudad de Rosario, Argentina. Con un enfoque equilibra do en el diseño y la funcionalidad, disfruto creando soluciones innovadoras que mejoran la experiencia del usuario. Mi fascinación por la tecnología y el     desarrollo web me impulsa constantemente a explorar nuevas herramientas y técnicas para ofrecer productos de calidad excepcional.
+          </p>
+        </div>
+      </section> 
+
+      <section class="contenedorTecnologias">
+        <h2 id="tituloTecnologias"> MIS TECNOLOGIAS FAVORITAS </h2> 
+          <div class="cardContainer">  
+
+            <div class="card">
+              <!-- <h3>HTML</h3> -->
+              <img src="./assets/html-5-svgrepo-com.png" alt="html" class="logoTecnologias"> 
+            </div>
+
+            <div class="card">
+              <!-- <h3>CSS</h3> -->
+              <img src="./assets/css-3-svgrepo-com.png" alt="css" class="logoTecnologias">
+            </div>
+
+            <div class="card">
+              <!-- <h3>JS</h3>  -->
+              <img src="./assets/js-official-svgrepo-com.png" alt="js" class="logoTecnologias" width="200" height="150">
+            </div>
+
+          </div>  
+      </section>
+
+
+
+      <section class="contenedorActividades">        
+          <h2 id="tituloActividades"> MIS ACTIVIDADES FAVORITAS </h2>
+            <div class="actividades">
+
+              <input type="text" id="title" placeholder="ACTIVIDAD">
+
+              <textarea 
+                name=""
+                id="description"
+                cols="30"
+                type="text" 
+                placeholder="DESCRIPCION" 
+                rows="10"> 
+              </textarea>
+
+              <input type="text" id="imgURL" placeholder="URL imagen">
+
+              <button id="agregar" type="submit">Agregar Actividad</button>
+
+            </div>
+
+
+
+              <div id="contenedorCartas"> 
+                
+              </div>
+      </section>
+
+      
+      <footer>
+        <div class="contenedorContactos">
+          <div class="derechos">
+            <p>Jesus Garcia &copy; Todos los derechos reservados - 2024</p>
+          </div>
+
+          <div class="contactos">
+            <ul class="listaContactos">
+              <li class="cardContactos">
+                <a href="" target="_blank"></a><i class="fa-brands fa-github fa-xl"></i>
+              </li>
+              <li class="cardContactos">
+                <a href="" target="_blank"></a><i class="fa-brands fa-whatsapp fa-xl"></i>
+              </li>
+              <li class="cardContactos">
+                <a href="" target="_blank"></a><i class="fa-brands fa-linkedin-in fa-xl"></i>
+              </li>
+            </ul>
+          </div>
+          
+
+        </div>  
+      </footer>
+
+      <script src="./scripts/index.js"></script>
+  </main>
+</body>
+</html>
