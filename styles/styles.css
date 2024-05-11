@@ -93,7 +93,7 @@ body {
 
 
 #miNombre {
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     margin: auto;
 }
@@ -110,14 +110,14 @@ body {
 
 #subtitulo {
     font-size: 25px;
-    margin-top: 2em;
+    margin-top: 90px;
     color: white;
     text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px darkblue;
     font-weight: bold;
-    /* animation: flotar 2s ease infinite; */
+    animation: flotar 2s ease infinite;
 }
 
-/* @keyframes flotar {
+@keyframes flotar {
     0% {
       transform: translateY(0);
     }
@@ -127,7 +127,7 @@ body {
     100% {
       transform: translateY(0);
     }
-  } */
+  }
 
 
 
